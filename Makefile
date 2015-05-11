@@ -11,7 +11,7 @@
 #******************************************************************************#
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror -O3
+CFLAGS = -Wall -Wextra -Werror
 SRC_PATH = ./src/
 OBJ_PATH = ./obj/
 SRC_NAME = ft_atoi.c\
