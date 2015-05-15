@@ -84,7 +84,5 @@ void			ft_lstdelcontent(void *content, size_t content_size);
 char			*ft_itoa(int n);
 void			ft_lstpushback(t_list *begin, void *content, size_t content_sz);
 void			ft_free_tab(void ***tab, size_t n);
-void			ft_putnbr_base(int n, int base);
-char			*ft_itoa_base(int n, int base);
 
 #endif
