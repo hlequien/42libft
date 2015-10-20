@@ -6,13 +6,13 @@
 /*   By: hlequien <hlequien@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/04 18:17:59 by hlequien          #+#    #+#             */
-/*   Updated: 2014/11/06 14:49:11 by hlequien         ###   ########.fr       */
+/*   Updated: 2015/10/20 17:46:40 by hlequien         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putstr(char const *s)
+void	ft_putstr(char const *s)
 {
-	write (1, s, ft_strlen(s));
+	write(1, s, ft_strlen(s));
 }

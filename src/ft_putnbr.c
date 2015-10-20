@@ -6,13 +6,13 @@
 /*   By: hlequien <hlequien@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/05 16:21:21 by hlequien          #+#    #+#             */
-/*   Updated: 2014/11/15 05:52:39 by hlequien         ###   ########.fr       */
+/*   Updated: 2015/10/20 17:46:09 by hlequien         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putnbr(int n)
+void	ft_putnbr(int n)
 {
-  ft_putnbr_fd(n, 1);
+	ft_putnbr_fd(n, 1);
 }

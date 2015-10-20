@@ -6,14 +6,14 @@
 /*   By: hlequien <hlequien@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/05 16:52:19 by hlequien          #+#    #+#             */
-/*   Updated: 2014/11/05 16:54:04 by hlequien         ###   ########.fr       */
+/*   Updated: 2015/10/20 17:41:36 by hlequien         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putstr_fd(char *s, int fd)
+void	ft_putstr_fd(char *s, int fd)
 {
 	if (s != NULL)
-		write (fd, s, ft_strlen(s));
+		write(fd, s, ft_strlen(s));
 }

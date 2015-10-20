@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-void ft_lstpushback(t_list *begin, void *content, size_t content_sz)
+void	ft_lstpushback(t_list *begin, void *content, size_t content_sz)
 {
 	if (begin != NULL)
 		while (begin->next != NULL)

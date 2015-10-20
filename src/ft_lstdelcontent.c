@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-void ft_lstdelcontent(void *content, size_t content_size)
+void	ft_lstdelcontent(void *content, size_t content_size)
 {
 	if (content != NULL && content_size != 0)
 		free(content);

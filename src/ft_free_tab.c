@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-void ft_free_tab(void ***tab, size_t n)
+void	ft_free_tab(void ***tab, size_t n)
 {
 	if (tab != NULL)
 	{
