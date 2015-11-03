@@ -6,7 +6,7 @@
 #    By: hlequien <hlequien@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/02/03 19:15:09 by hlequien          #+#    #+#              #
-#    Updated: 2015/05/09 20:01:36 by hlequien         ###   ########.fr        #
+#    Updated: 2015/11/03 19:29:17 by hlequien         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -74,7 +74,8 @@ ft_strstr.c\
 ft_strsub.c\
 ft_strtrim.c\
 ft_tolower.c\
-ft_toupper.c
+ft_toupper.c\
+ft_tab_size.c
 
 OBJ_NAME = $(SRC_NAME:.c=.o)
 INC_PATH = ./includes/

@@ -6,7 +6,7 @@
 /*   By: hlequien <hlequien@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 19:17:57 by hlequien          #+#    #+#             */
-/*   Updated: 2014/11/26 08:48:30 by hlequien         ###   ########.fr       */
+/*   Updated: 2015/11/03 19:29:57 by hlequien         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,5 +84,6 @@ void			ft_lstdelcontent(void *content, size_t content_size);
 char			*ft_itoa(int n);
 void			ft_lstpushback(t_list *begin, void *content, size_t content_sz);
 void			ft_free_tab(void ***tab, size_t n);
+size_t			ft_tab_size(void **tab);
 
 #endif
